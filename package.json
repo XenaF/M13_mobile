@@ -1,0 +1,26 @@
+{
+  "name": "M13_mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:mobile": "protractor protractor.conf.mobile.js",
+    "test:wdio": "wdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.16.13",
+    "@wdio/dot-reporter": "^7.16.13",
+    "@wdio/local-runner": "^7.16.13",
+    "@wdio/mocha-framework": "^7.16.13",
+    "@wdio/spec-reporter": "^7.16.13"
+  },
+  "dependencies": {
+    "@wdio/allure-reporter": "^7.16.14",
+    "chai": "^4.3.6",
+    "jasmine-spec-reporter": "^7.0.0",
+    "protractor": "^7.0.0"
+  }
+}
